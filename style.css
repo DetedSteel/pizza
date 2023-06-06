@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    background-color: rgb(93, 186, 0);
+    color: rgb(178, 0, 0);
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.logo {
+    height: 80px;
+}
+
+.main {
+    display: flex;
+}
+
+.order {
+    border-right: 3px solid black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lastOrders {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.size-item {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 4px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.size-btn {
+    border: none;
+    background-color: transparent;
+    color: rgb(93, 186, 0);
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.size25 {
+    margin-top: auto;
+    align-self: center;
+    width: 25px;
+}
+
+.size32 {
+    margin-top: auto;
+    align-self: center;
+    width: 32px;
+}
+
+.size45 {
+    margin-top: auto;
+    align-self: center;
+    width: 45px;
+}
+
+.selected {
+    outline: 2px solid rgb(178, 0, 0);
+    border-radius: 4px;
+}
+
+.makeOrder {
+    align-self: center;
+    color: rgb(93, 186, 0);
+    border: 2px solid rgb(93, 186, 0);
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.orderForm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ingridient {
+    width: 20px;
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 25px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.add {
+    border: 1px solid rgb(93, 186, 0);
+    background-color: transparent;
+    border-radius: 6px;
+    height: 20px;
+    padding: 2px 6px;
+}
+
+.remove {
+    border: 1px solid rgb(93, 186, 0);
+    background-color: transparent;
+    border-radius: 6px;
+    height: 20px;
+    padding: 2px 6px;
+}
+
+.order_item {
+    padding: 10px;
+    border: 2px solid rgb(93, 186, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

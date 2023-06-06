@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P!zza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/final_logo_-_pizza_cafe-04.webp" alt="logo" class="logo">
+        <h1>P!zza</h1>
+    </header>
+    <main class="main">
+        <div class="order">
+            <h2>
+                Сделать заказ
+            </h2>
+            <h3>Размер</h3>
+            <form class="orderForm" action="">
+                <div class="size">
+                    <div class="size-item">
+                        <img src="img/diameter.svg" alt="" class="size25">
+                        <p class="size-btn">25см</p>
+                    </div>
+                    <div class="size-item">
+                        <img src="img/diameter.svg" alt="" class="size32">
+                        <p class="size-btn">32см</p>
+                    </div>
+                    <div class="size-item">
+                        <img src="img/diameter.svg" alt="" class="size45">
+                        <p class="size-btn">45см</p>
+                    </div>
+                </div>
+                <h3>Доп. ингридиенты</h3>
+                <div class="ananas extra">
+                    <p class="remove">
+                        -
+                    </p>
+                    <img src="img/ananas.svg" alt="" class="ingridient">
+                    <p class="add">
+                        +
+                    </p>
+                    <p id="count_ananas" class="coun">0</p>
+                </div>
+                <div class="bacon extra">
+                    <p class="remove">
+                        -
+                    </p>
+                    <img src="img/bacon.svg" alt="" class="ingridient">
+                    <p class="add">
+                        +
+                    </p>
+                    <p id="count_bacon" class="coun">0</p>
+                </div>
+                <div class="chile extra">
+                    <p class="remove">
+                        -
+                    </p>
+                    <img src="img/chile.svg" alt="" class="ingridient">
+                    <p class="add">
+                        +
+                    </p>
+                    <p id="count_chile" class="coun">0</p>
+                </div>
+                <div class="ham extra">
+                    <p class="remove">
+                        -
+                    </p>
+                    <img src="img/ham.svg" alt="" class="ingridient">
+                    <p class="add">
+                        +
+                    </p>
+                    <p id="count_ham" class="coun">0</p>
+                </div>
+                <div class="cheeze extra">
+                    <p class="remove">
+                        -
+                    </p>
+                    <img src="img/mozzarella.svg" alt="" class="ingridient">
+                    <p class="add">
+                        +
+                    </p>
+                    <p id="count_cheeze" class="coun">0</p>
+                </div>
+                <div class="mushrooms extra">
+                    <p class="remove">
+                        -
+                    </p>
+                    <img src="img/mushrooms.svg" alt="" class="ingridient">
+                    <p class="add">
+                        +
+                    </p>
+                    <p id="count_mushrooms" class="coun">0</p>
+                </div>
+                <div class="olives extra">
+                    <p class="remove">
+                        -
+                    </p>
+                    <img src="img/olives.svg" alt="" class="ingridient">
+                    <p class="add">
+                        +
+                    </p>
+                    <p id="count_olives" class="coun">0</p>
+                </div>
+                <div class="salami extra">
+                    <p class="remove">
+                        -
+                    </p>
+                    <img src="img/salami.svg" alt="" class="ingridient">
+                    <p class="add">
+                        +
+                    </p>
+                    <p id="count_salami" class="coun">0</p>
+                </div>
+                <button type="submit" class="makeOrder">Сделать заказ!</button>
+            </form>
+        </div>
+        <div class="lastOrders">
+            <h2>
+                Ваши заказы
+            </h2>
+            <div class="orderList"></div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
